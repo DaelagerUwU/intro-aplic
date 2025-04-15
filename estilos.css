@@ -1,0 +1,58 @@
+
+.imagen {
+    display: flex;
+    justify-content: center;
+}
+
+.textocentrado {
+    text-align: center;
+}
+
+.footer-anime {
+    background-color: #fef6ff;
+    color: #333;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    border-top: 2px dashed pink;
+    padding: 20px;
+}
+
+.footer-contenido {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    min-width: 150px;
+}
+
+.columna h4 {
+    color: #ff69b4;
+    margin-bottom: 8px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.columna a {
+    text-decoration: none;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.columna a:hover {
+    color: #ff1493;
+    text-decoration: underline;
+}
+
+.footer-final {
+    text-align: center;
+    border-top: 1px solid #ffc0cb;
+    padding-top: 10px;
+    font-size: 14px;
+    color: #888;
+}

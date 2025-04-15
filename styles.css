@@ -1,0 +1,32 @@
+body {
+    font-family: "Winky Sans", sans-serif;
+}
+.contenedor{
+background-color: aquamarine;
+width: 212px;
+height: 155px;
+margin: auto;
+border-radius: 200px;
+box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.card{
+    padding: 5px;
+    text-align: center;
+    border-radius: 8px;
+    width: 212px;
+    height: 430px;
+    background-color: rgb(132, 200, 245);
+    margin: 0 auto;
+
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+  }
+
+.texto{
+    text-align: center;
+    border-radius: 8px;
+    width: 212px;
+    height: 430px;
+    background-color: rgb(87, 94, 99);
+    margin: 0 auto;
+    box-shadow: rgb(0, 0, 0) 0px 20px 30px -10px;
+}
